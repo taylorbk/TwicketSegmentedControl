@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol TwicketSegmentedControlDelegate: class {
+@objc public protocol TwicketSegmentedControlDelegate: class {
     func didSelect(_ segmentIndex: Int)
 }
 
